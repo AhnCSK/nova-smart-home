@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "HDC APT",
+    "slug": "my-app-dev",
+    "scheme": "smarthome",
+    "owner": "wnsrlf0721",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.nova3rd.android",
+      "googleServicesFile": "./google-services.json",
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "62b95506-be2d-4cfe-a7bd-c16f9363fb1d"
+      }
+    },
+    "plugins": ["expo-router", "@react-native-community/datetimepicker", "expo-secure-store"]
+  }
+}
