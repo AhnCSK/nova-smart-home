@@ -156,6 +156,9 @@ LLM Response
 
 <img width="2415" height="1284" src="https://github.com/user-attachments/assets/8057825c-6e6d-4d57-adce-8269d653a64a">
 
+<img width="1872" height="914" alt="333" src="https://github.com/user-attachments/assets/48217ef6-f2ad-43cd-ad26-70f7619159ec" />
+
+<img width="1870" height="911" alt="555" src="https://github.com/user-attachments/assets/fc465c34-dc23-4723-9b9d-7b56156df61b" />
 
 ---
 
@@ -293,6 +296,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
