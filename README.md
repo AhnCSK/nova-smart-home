@@ -11,7 +11,6 @@
 📅 **개발 기간**  
 2026.01.14 ~ 2026.02.28  
 
-🎓 **HDC Labs 스마트 IoT 풀스택 개발자 과정**
 
 </div>
 
@@ -53,6 +52,29 @@
 | 📅 Facility Reservation | QR 기반 시설 출입 시스템 |
 | 🔥 Fire Detection | 가스 / 온도 센서 기반 자동 관제 |
 | 📊 Admin Dashboard | 세대 / 민원 / 관리비 관리 |
+
+---
+
+
+# 🎬 Demo Video
+
+[![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
+---
+
+# 🏗 Hardware Prototype
+
+### 전체
+
+<img width="1332" height="644" src="https://github.com/user-attachments/assets/b35429ef-e9cc-4a6c-aafa-c3c71e6165da">
+
+### AI 스피커 & 시설 출입
+
+<img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
+
+### 집 내부 환경
+
+<img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
+
 
 ---
 
@@ -257,24 +279,5 @@ Docker Compose Deploy
 | 천경신 | 화재 감지 시스템 · 음성 인식 |
 | 최우영 | IoT 디바이스 제어 · 센서 연동 |
 
----
 
-# 🏗 Hardware Prototype
 
-### 전체
-
-<img width="1332" height="644" src="https://github.com/user-attachments/assets/b35429ef-e9cc-4a6c-aafa-c3c71e6165da">
-
-### AI 스피커 & 시설 출입
-
-<img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
-
-### 집 내부 환경
-
-<img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
-
----
-
-# 🎬 Demo Video
-
-[![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
