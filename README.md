@@ -55,7 +55,7 @@ Gas Sensor → MQTT → Safety Service
 
 ---
 
-### 음성 디바이스 제어
+### AI 음성 인식 디바이스 제어
 
 
 WakeWord ("하이 노바")
@@ -65,7 +65,7 @@ WakeWord ("하이 노바")
 → IoT Device Control
 
 
-예시
+호출 예시
 
 
 "하이 노바, 거실 불 켜줘"
@@ -280,6 +280,7 @@ Docker Compose Deploy
 
 
 ---
+
 
 
 
