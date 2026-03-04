@@ -1,5 +1,5 @@
 
-# 🎬 시연 영상[Demo Video]
+# 시연 영상[Demo Video]
 
 [![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
 ---
@@ -21,9 +21,9 @@
 
 ---
 
-# 🎬 시연 흐름[Demo Scenario]
+# 시연 흐름[Demo Scenario]
 
-### 1️⃣ 화재 감지
+### 화재 감지
 
 
 Gas Sensor → MQTT → Safety Service
@@ -36,7 +36,7 @@ Gas Sensor → MQTT → Safety Service
 
 ---
 
-### 2️⃣ 음성 디바이스 제어
+### 음성 디바이스 제어
 
 
 WakeWord ("하이 노바")
@@ -56,7 +56,7 @@ WakeWord ("하이 노바")
 
 ---
 
-### 3️⃣ RAG 챗봇
+### RAG 챗봇
 
 
 User Question
@@ -93,7 +93,7 @@ LLM Response
 
 ---
 
-# 📌 프로젝트 개요[Project Overview]
+# 프로젝트 개요[Project Overview]
 
 **NOVA**는 IoT 디바이스와 AI 기술을 결합하여  
 아파트 관리와 입주민 편의를 동시에 제공하는 **스마트 아파트 통합 플랫폼**입니다.
@@ -118,8 +118,19 @@ LLM Response
 등 단지 운영을 관리할 수 있습니다.
 
 ---
+# Team
 
-# 🚀 주용 기능[Key Features]
+| 이름 | 역할 |
+|-----|-----|
+| 안창석 | 관리자 인증 · 보안 · 민원 시스템 |
+| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 챗봇 UI |
+| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
+| 천경신 | 화재 감지 시스템 · 음성 인식 |
+| 최우영 | IoT 디바이스 제어 · 센서 연동 |
+
+---
+
+# 주용 기능[Key Features]
 
 | 기능 | 설명 |
 |-----|-----|
@@ -132,13 +143,13 @@ LLM Response
 
 ---
 
-# 🏗 시스템 아키텍쳐[System Architecture]
+# 시스템 아키텍쳐[System Architecture]
 
 <img width="1095" height="602" src="https://github.com/user-attachments/assets/15d59f28-63a9-4854-995c-c6c7a48aa72d">
 
 ---
 
-# 📱 Service Screens
+# Service Screens
 
 <img width="2396" height="1287" src="https://github.com/user-attachments/assets/3dc8e47e-50e3-45d0-a1d2-9aa54c1045f5">
 
@@ -146,7 +157,7 @@ LLM Response
 
 ---
 
-# 🛠 기술 스택[Tech Stack]
+# 기술 스택[Tech Stack]
 
 ## Frontend
 
@@ -240,7 +251,7 @@ OpenWeather API 호출 성능을 개선했습니다.
 
 ---
 
-# 🧩 Infrastructure
+# Infrastructure
 
 Docker Compose 기반 통합 인프라 구성
 
@@ -269,15 +280,6 @@ Docker Compose Deploy
 
 ---
 
-# 👨‍👩‍👧‍👦 Team
-
-| 이름 | 역할 |
-|-----|-----|
-| 안창석 | 관리자 인증 · 보안 · 민원 시스템 |
-| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 챗봇 UI |
-| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
-| 천경신 | 화재 감지 시스템 · 음성 인식 |
-| 최우영 | IoT 디바이스 제어 · 센서 연동 |
 
 
 
