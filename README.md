@@ -208,9 +208,9 @@ LLM Response
 
 ## RAG 기반 AI 챗봇
 
-- OpenAI Embedding 기반 벡터 생성
-- Pinecone Top-K 유사도 검색
-- Gemini LLM 응답 생성
+OpenAI Embedding 기반 벡터 생성
+Pinecone Top-K 유사도 검색
+Gemini LLM 응답 생성
 
 ---
 
@@ -231,8 +231,8 @@ REST Polling → MQTT WebSocket
 
 복잡한 검색 조건을 처리하기 위해
 
-- QueryDSL 기반 동적 쿼리 구현
-- 관리자 대시보드 검색 성능 개선
+QueryDSL 기반 동적 쿼리 구현
+관리자 대시보드 검색 성능 개선
 
 ---
 
@@ -285,6 +285,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
