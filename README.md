@@ -118,16 +118,6 @@ LLM Response
 
 등 단지 운영을 관리할 수 있습니다.
 
----
-# 팀 구성[Team Member]
-
-| 이름 | 역할 |
-|-----|-----|
-| 안창석 | 관리자 인증 · 고지서 시스템 · 민원 시스템 |
-| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 UI |
-| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
-| 천경신 | 화재 감지 시스템 · AI 음성 인식 · 웹 UI|
-| 최우영 | IoT 디바이스 제어 · 날씨API연동 · 센서 연동 |
 
 ---
 
@@ -144,12 +134,6 @@ LLM Response
 
 ---
 
-# 시스템 아키텍쳐[System Architecture]
-
-<img width="1095" height="602" src="https://github.com/user-attachments/assets/15d59f28-63a9-4854-995c-c6c7a48aa72d">
-
----
-
 # 서비스 화면[Service Screens]
 
 <img width="2396" height="1287" src="https://github.com/user-attachments/assets/3dc8e47e-50e3-45d0-a1d2-9aa54c1045f5">
@@ -162,6 +146,13 @@ LLM Response
 
 ---
 
+# 시스템 아키텍쳐[System Architecture]
+
+<img width="1095" height="602" src="https://github.com/user-attachments/assets/15d59f28-63a9-4854-995c-c6c7a48aa72d">
+
+
+---
+
 # 개체관계도[Entity-Relationship Diagram]
 
 <img width="2511" height="2387" alt="Untitled (1)" src="https://github.com/user-attachments/assets/b6af497c-0bf3-4fb8-a172-41be46c33f2f" />
@@ -169,53 +160,7 @@ LLM Response
 
 ---
 
-# 기술 스택[Tech Stack]
-
-## Frontend
-
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-54-000020?logo=expo&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-
----
-
-## Backend
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
-![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD)
-
----
-
-## Database & Messaging
-
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-Mosquitto-3C5280)
-
----
-
-## AI
-
-![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4)
-![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-black)
-![Whisper](https://img.shields.io/badge/Whisper-STT-green)
-
----
-
-## DevOps / Infra
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-
----
-
-# 중요 구현 기술[Key Technical Implementation]
+# 핵심 구현 기술[Key Technical Implementation]
 
 ## RAG 기반 AI 챗봇
 
@@ -292,10 +237,66 @@ Docker Compose Deploy
 
 ---
 
+# 팀 구성[Team Member]
 
+| 이름 | 역할 |
+|-----|-----|
+| 안창석 | 관리자 인증 · 고지서 시스템 · 민원 시스템 |
+| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 UI |
+| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
+| 천경신 | 화재 감지 시스템 · AI 음성 인식 · 웹 UI|
+| 최우영 | IoT 디바이스 제어 · 날씨API연동 · 센서 연동 |
+
+---
+
+
+# 기술 스택[Tech Stack]
+
+## Frontend
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-54-000020?logo=expo&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+
+---
+
+## Backend
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5-6DB33F?logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD)
+
+---
+
+## Database & Messaging
+
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-Mosquitto-3C5280)
+
+---
+
+## AI
+
+![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-black)
+![Whisper](https://img.shields.io/badge/Whisper-STT-green)
+
+---
+
+## DevOps / Infra
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 
 
 </div>
+
 
 
 
