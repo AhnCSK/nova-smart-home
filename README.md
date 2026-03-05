@@ -196,10 +196,20 @@ QueryDSL 기반 동적 쿼리 구현
 
 외부 API 호출 병목 문제 해결
 
-| 구분 | 응답시간 |
-|-----|-----|
-| Before | 476ms |
-| After | 53ms |
+<table align="center">
+<tr>
+<th>구분</th>
+<th>응답시간</th>
+</tr>
+<tr>
+<td>Before</td>
+<td>476ms</td>
+</tr>
+<tr>
+<td>After</td>
+<td><b>53ms</b></td>
+</tr>
+</table>
 
 ➡ **약 9배 성능 개선**
 
@@ -296,6 +306,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
