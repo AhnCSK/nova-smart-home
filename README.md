@@ -251,7 +251,7 @@ Docker Compose Deploy
 
 | 이름 | 역할 |
 |-----|-----|
-| 안창석 | 관리자 인증(JWT) · 고지서 자동 생성 · 민원 관리 시스템 |
+| 안창석 | 관리자 JWT/OTP 인증 · 고지서 자동 생성 · 민원 관리 시스템 |
 | 이희원 | AI 챗봇 · RAG 파이프라인 · LLM 응답 처리 · 앱 UI |
 | 양준길 | CI/CD · OAuth · QR 출입 시스템 · 시설 예약 API · FCM 알림 · Redis 캐싱 |
 | 천경신 | 실시간 모니터링 · MQTT 토픽 설계 · 서버 운영 · AI 스피커 · 웹 UI|
@@ -306,6 +306,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
